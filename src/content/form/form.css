@@ -1,0 +1,16 @@
+Form{
+   
+    border: solid .03rem rgb(61, 57, 57);
+    padding: 1rem;
+    background-color: rgb(233, 232, 227);
+}
+
+Form .grp, label{
+    margin: .5rem 0rem;
+    background-color: rgb(233, 232, 227);
+}
+
+Label{
+    font-size: 1rem;
+    font-weight: 600;
+}
