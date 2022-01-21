@@ -1,16 +1,25 @@
+.container{
+    padding: 0rem 1rem;
+}
 Form{
-   
-    border: solid .03rem rgb(61, 57, 57);
-    padding: 1rem;
-    background-color: rgb(233, 232, 227);
+    padding: 1rem 2rem;
+    background-color: rgb(243, 238, 223);
 }
 
-Form .grp, label{
+Form .grp{
     margin: .5rem 0rem;
-    background-color: rgb(233, 232, 227);
 }
 
+.FormText{
+    background-color: rgb(255, 255, 255);
+    padding: .5rem;
+}
 Label{
     font-size: 1rem;
     font-weight: 600;
+    margin: .5rem;
+}
+
+.btn{
+    margin-top: 1rem;
 }

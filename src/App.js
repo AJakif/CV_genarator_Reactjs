@@ -1,12 +1,11 @@
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { Container } from "reactstrap";
 import Form from "./content/form/form";
 import Cv from "./content/cv/cv";
 function App() {
   return (
     <div className="App">
-      <Container>
+      
         <header>
           <h1>CV Genarator</h1>
         </header>
@@ -20,7 +19,7 @@ function App() {
             </Route>
           </Switch>
         </Router>
-      </Container>
+    
     </div>
   );
 }

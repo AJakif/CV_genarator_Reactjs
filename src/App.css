@@ -2,6 +2,7 @@ header{
     text-align: center;
     padding-top: 2rem;
 }
-*{
-    background-color: rgb(148, 225, 228);
+.App{
+    background-color: rgb(173, 193, 230);
+    padding: 1rem;
 }
